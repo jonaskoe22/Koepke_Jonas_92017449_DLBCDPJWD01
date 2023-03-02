@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Build Your Own Burrito</title>
+    <style>
+        #head {
+            width: 500px;
+            margin: auto;
+            display: block;
+        }
+    </style>
+  </head>
+  <style>
+    /* Style of the side bar */ 
+    .sidebar {
+      position: fixed; 
+      top: 0; 
+      bottom: 0; 
+      left: 0; 
+      width: 200px; 
+      background-color: rgb(44, 145, 52); 
+      color: rgb(255, 255, 255); 
+    }
+  
+    /* Style the main content */
+    .main {
+      margin-left: 200px; /* Leave space for the side bar */
+    }
+  </style>
+  
+  <div class="sidebar">
+    <a href="Eldiablo.html" style="font-family: Roboto; font-size: 30px">Burrito Builder</a>
+    <a href="AboutUs.html" style="font-family: Roboto; font-size: 30px">About Us</a>
+    <a href="Feedback.html" style="font-family: Roboto; font-size: 30px">Feedback</a>
+
+  </div>
+  
+  <div class="main">
+    
+  
+    <div id="burrito-builder"> <!-- Burrito builder -->
+      
+      <body>
+        
+        <body style="background-color: lightgrey"
+      </body>
+        <style>
+            body {
+                font-family: "Roboto" , sans-serif;
+            }
+        </style>
+        <h1>Build Your Own Burrito</h1>
+        <p>Welcome to our burrito builder! Use the form below to select the ingredients for your perfect burrito. When you're done, click the "Order Burrito" button to submit your order.</p>
+          <form action="burrito-form.php" method="post">
+          <h2>Step 1: Burrito or Bowl?</h2>
+          <select name="burritobowl">
+            <option value="Burrito" id="name" name="name">Burrito</option>
+            <option value="Bowl" id="name" name="name">Bowl</option>
+          </select>
+          <h2>Step 2: Choose a protein</h2>
+          <input type="radio" name="protein" value="beef"> Beef<br>
+          <input type="radio" name="protein" value="chicken"> Chicken<br>
+          <input type="radio" name="protein" value="tofu"> Tofu<br>
+          <input type="radio" name="protein" value="soy"> Soy<br>
+          <input type="radio" name="protein" value="none"> No protein (vegetarian option)<br>
+          <h2>Step 3: Select your toppings</h2>
+          <input type="checkbox" name="toppings" value="lettuce"> Lettuce<br>
+          <input type="checkbox" name="toppings" value="tomatoes"> Tomatoes<br>
+          <input type="checkbox" name="toppings" value="onions"> Onions<br>
+          <input type="checkbox" name="toppings" value="peppers"> Peppers<br>
+          <input type="checkbox" name="toppings" value="guacamole"> Guacamole<br>
+          <input type="checkbox" name="toppings" value="red salsa"> Red Salsa<br>
+          <input type="checkbox" name="toppings" value="green salsa"> Green Salsa<br>
+          <input type="checkbox" name="toppings" value="corn"> Corn<br>
+          <input type="checkbox" name="toppings" value="cheese"> Cheese<br>
+          <input type="checkbox" name="toppings" value="vegan cheese"> Vegan Cheese<br>
+          <h2>Step 4: Choose your sauce</h2>
+          <select name="sauce" id="name" name="name">
+            <option value="none">No sauce</option>
+            <option value="sour cream">Sour cream</option>
+            <option value="vegan sour cream">Vegan Sour cream</option>
+            <option value="chipotle">Chipotle sauce</option>
+            <option value="ranch">Ranch dressing</option>
+          </select>
+          <br><br>
+          <h2>Step 5: Enter your address</h2>
+          <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="streetandnumber">Street and Number:</label><br>
+            <input type="text" id="streetandnumber" name="streetandnumber"><br>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city"><br>
+            <label for="postalcode">Postal Code:</label><br>
+            <input type="text" id="postalcode" name="postalcode"><br>
+          </form>
+          <br><br>
+          <h2>Step 6: Enter your payment method</h2>
+          <select name="cardtype" id="name" name="name">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="american-express">American Express</option>
+            </select>
+            <form>
+              <label for="ccnumber">Credit Card Number:</label><br>
+              <input type="text" id="cc-number" name="cc-number"><br>
+              <label for="ccexperation">Experation Date:</label><br>
+              <input type="text" id="cc-experation" name="cc-experation"><br>
+            </form><br><br>
+        
+          
+          <button onclick="window.open('thankyou.html', 'height=300,width=300');">Order Burrito</button>
+                  </form> 
+      </body>
+    </div>
+  
+    
+  
+    
+  
+</html>
+
+
+
+  
+
+

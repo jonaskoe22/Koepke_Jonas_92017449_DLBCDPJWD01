@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+    <head>
+      <meta charaset="UTF-8">
+      <link rel="stylesheet" type="text/css"
+      href="style.css">
+
+        <title> Please tell us how we can improve!</title>
+    </head>
+    <style>
+        /* Style the side bar */
+        .sidebar {
+          position: fixed; /* Fix the position of the side bar */
+          top: 0; /* Position the side bar at the top of the page */
+          bottom: 0; /* Make the side bar the same height as the page */
+          left: 0; /* Position the side bar on the left side of the page */
+          width: 200px; /* Set the width of the side bar */
+          background-color: rgb(44, 145, 52); /* Set the background color of the side bar */
+          color: rgb(255, 255, 255); /* Set the text color of the side bar */
+        }
+      
+        /* Style the main content */
+        .main {
+          margin-left: 430px; /* Leave space for the side bar */
+        }
+        .rate {
+          margin-left: 430px; /* Leave space for the side bar */
+        }
+      </style>
+      
+      <div class="sidebar">
+        <a href="Eldiablo.html" style="font-family: Roboto; font-size: 30px">Burrito Builder</a>
+        <a href="AboutUs.html" style="font-family: Roboto; font-size: 30px">About Us</a>
+        <a href="Feedback.html" style="font-family: Roboto; font-size: 30px">Feedback</a>
+      </div>
+    <body>
+      <h1>Please tell us how we can improve!</h1><br> 
+      <div class="main"
+      <div class="rate"> <!-- Star rating system -->
+        <input type="radio" id="star5" name="rate"
+        value="5" />
+        <label for="star5" title="text">5 Stars</label>
+        <input type="radio" id="star4" name="rate"
+        value="4" />
+        <label for="star5" title="text">4 Stars</label>
+        <input type="radio" id="star3" name="rate"
+        value="3" />
+        <label for="star5" title="text">3 Stars</label>
+        <input type="radio" id="star2" name="rate"
+        value="5" />
+        <label for="star2" title="text">2 Stars</label>
+        <input type="radio" id="star1" name="rate"
+        value="1" />
+        <label for="star5" title="text">1 Star</label>
+      </div>
+      </div>
+      </body>
+      <style> 
+      h1{
+        text-align: center;
+      } 
+        </style>
+      <div id="feedback">
+        
+    <style>
+      /* Style the form */
+      form {
+        width: 1000px; /* Set the width of the form */
+        margin: 0 auto; /* Center the form on the page */
+        text-align: center; /* Center the form elements */
+      }
+      /* Style the text field */
+      input[type="text"] {
+        width: 70%; /* Set the width of the text field */
+        padding: 12px 20px; /* Add some padding to the text field */
+        margin: 8px 0; /* Add some space below the text field */
+        box-sizing: border-box; /* Make the text field fit the size of the content */
+        border: 1px solid #ccc; /* Add a border to the text field */
+        border-radius: 4px; /* Round the corners of the text field */
+    
+      }
+      /* Show the pop-up when the submit button is clicked */
+      input[type="submit"]:focus + .popup {
+        visibility: visible; /* Show the pop-up */
+      }
+      
+    </style>
+    
+    <form action="feedback.php" method="post">
+      <div class="h1"> 
+      <input type="text" id="feedback" id="name" name="name"><br> <!-- Feedback text input -->
+      <button onclick="window.open('thxFeedback.html', 'height=300,width=300');">Submit</button> <!-- Submit feedback button -->
+    </form>
+    
+    </div>
+    </body>
+    </div>
